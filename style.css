@@ -29,6 +29,9 @@ li {
   width: 100%;
   padding: 1rem 2rem;
 }
+.active {
+  background-color: #5c5c5c;
+}
 li:hover {
   cursor: pointer;
   background-color: #5c5c5c;
@@ -74,6 +77,17 @@ h2 {
   font-size: 24px;
 }
 .itemContent {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.head {
+  display: flex;
+  gap: 10px;
+}
+.imgItem {
+  width: 100%;
+  height: auto;
 }
 
 footer {
